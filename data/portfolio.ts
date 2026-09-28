@@ -7,11 +7,11 @@ export const portfolio = {
 
   photo: "/picture.png",
 
-  bio: "I build backend systems, developer infrastructure, and AI-powered applications.",
+  bio: "Building backend systems, developer infrastructure, and AI-powered applications.",
 
   about: {
   paragraphs: [
-    "I'm a final-year Computer Science student at Maharaja Surajmal Institute of Technology, interested in backend engineering, AI, and infrastructure.",
+    "Final-year Computer Science student at Maharaja Surajmal Institute of Technology, interested in backend engineering, AI, and infrastructure.",
 
     "I enjoy understanding how systems work under the hood — from APIs and databases to queues, containers, and the infrastructure connecting them.",
   ],
@@ -40,7 +40,7 @@ export const portfolio = {
     role: "Frontend Developer Intern",
     duration: "2025",
     description:
-      "Contributed to the frontend of a research platform, building responsive interfaces and integrating APIs across multiple product modules.",
+      "Built and maintained frontend features for a research platform, working across responsive UI, API integration, state management, and reusable component architecture.",
     technologies: [
       "Next.js",
       "TypeScript",
@@ -50,10 +50,10 @@ export const portfolio = {
       "Git",
     ],
     highlights: [
-      "Built reusable responsive UI components and product modules.",
-      "Worked on the template creator, user profile, onboarding, and dashboard.",
-      "Integrated APIs and handled frontend state and data fetching.",
-      "Collaborated with backend and design teams to resolve integration and UI issues.",
+      "Developed 25+ responsive and modular UI components across 10+ product features using Next.js, TypeScript, and Tailwind CSS.",
+      "Integrated and debugged REST APIs across 8+ frontend workflows using Redux Toolkit and TanStack Query for data fetching, caching, and synchronization.",
+      "Refactored 15+ legacy and reusable components to improve rendering performance, maintainability, and consistency.",
+      "Identified and resolved 30+ UI/UX, layout, API integration, and state-management issues while collaborating with designers and backend developers.",
     ],
   },
 ],
@@ -77,7 +77,7 @@ export const portfolio = {
   },
 
   {
-    name: "IncidentIQ",
+    name: "IncidentIQ (currently building)",
     description:
       "An AI-powered incident investigation platform that connects application metrics and logs to help investigate production incidents.",
     technologies: [
@@ -87,13 +87,13 @@ export const portfolio = {
       "Grafana",
       "Loki",
     ],
-    github: "",
+    github: "https://github.com/ArujGarg/IncidentIQ",
     live: "",
-    featured: true,
+    featured: false,
   },
 
   {
-    name: "URL Shortener",
+    name: "ShortLink",
     description:
       "A production-style URL shortener with Redis caching, rate limiting, click analytics, and background processing.",
     technologies: [
@@ -103,9 +103,9 @@ export const portfolio = {
       "Redis",
       "Prisma",
     ],
-    github: "",
-    live: "https://url-shortener-eight-coral.vercel.app/",
-    featured: false,
+    github: "https://github.com/ArujGarg/url-shortener",
+    live: "https://shortlink.aruj.dev/",
+    featured: true,
   },
 
   {
@@ -115,13 +115,28 @@ export const portfolio = {
     technologies: [
       "Python",
       "FastAPI",
-      "LangGraph",
       "LangChain",
       "SSE",
     ],
-    github: "",
+    github: "https://github.com/ArujGarg/researcher-agent",
     live: "https://researcher-agent.vercel.app/",
     featured: false,
   },
+
+{
+  name: "DocuQuery RAG",
+  description:
+    "A document-based RAG assistant that lets users upload documents and ask questions about their contents using retrieval-augmented generation.",
+  technologies: [
+    "Python",
+    "FastAPI",
+    "LangChain",
+    "RAG",
+    "Vector Store",
+  ],
+  github: "https://github.com/ArujGarg/DocuQuery-RAG",
+  live: "https://docuquery.aruj.dev/",
+  featured: true,
+},
 ],
 };
