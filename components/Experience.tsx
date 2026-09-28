@@ -27,10 +27,15 @@ export default function Experience() {
                     {experience.role}
                   </p>
                 </div>
-
-                <p className="text-xs text-[var(--muted)]">
-                  {experience.duration}
-                </p>
+                
+                <div>
+                    <p className="text-xs text-[var(--muted)]">
+                        {experience.duration}
+                    </p>
+                    <p className="text-xs text-[var(--muted)]">
+                        {experience.location}
+                    </p>
+                </div>
               </div>
 
               <p className="mt-6 max-w-2xl text-sm leading-7 text-[var(--muted)]">

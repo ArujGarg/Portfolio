@@ -38,7 +38,8 @@ export const portfolio = {
   {
     company: "Research Commons",
     role: "Frontend Developer Intern",
-    duration: "2025",
+    duration: "May 2025 - Nov 2025",
+    location: "Bangalore (Remote)",
     description:
       "Built and maintained frontend features for a research platform, working across responsive UI, API integration, state management, and reusable component architecture.",
     technologies: [
