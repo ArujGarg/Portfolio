@@ -5,7 +5,7 @@ export const portfolio = {
 
   location: "Delhi, India",
 
-  photo: "/profile.png",
+  photo: "/picture.png",
 
   bio: "I build backend systems, developer infrastructure, and AI-powered applications.",
 
