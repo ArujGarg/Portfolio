@@ -37,7 +37,7 @@ export const portfolio = {
  experience: [
   {
     company: "Research Commons",
-    role: "Frontend Developer Intern",
+    role: "Software Developer Intern",
     duration: "May 2025 - Nov 2025",
     location: "Bangalore (Remote)",
     description:
