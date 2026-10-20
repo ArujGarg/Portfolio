@@ -51,11 +51,11 @@ export const portfolio = {
       "Git",
     ],
     highlights: [
-      "Developed 25+ responsive and modular UI components across 10+ product features using Next.js, TypeScript, and Tailwind CSS.",
-      "Integrated and debugged REST APIs across 8+ frontend workflows using Redux Toolkit and TanStack Query for data fetching, caching, and synchronization.",
-      "Refactored 15+ legacy and reusable components to improve rendering performance, maintainability, and consistency.",
-      "Identified and resolved 30+ UI/UX, layout, API integration, and state-management issues while collaborating with designers and backend developers.",
-    ],
+  "Developed 25+ reusable UI components across 10+ product features using Next.js, TypeScript, and Tailwind CSS, translating Figma designs into responsive interfaces and improving UI consistency.",
+  "Integrated REST APIs across 8+ application workflows, configuring request payloads and headers, processing JSON responses, and managing loading, error, and data synchronization states.",
+  "Tested and debugged REST API endpoints using Swagger, analyzed response payloads and HTTP errors, and collaborated with backend engineers to identify API issues and validate fixes.",
+  "Refactored 15+ existing components and resolved 30+ UI, API integration, and state-management issues, improving code maintainability and reliability across multiple product modules.",
+],
   },
 ],
 
